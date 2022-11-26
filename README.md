@@ -1,1 +1,1 @@
-# talller-practico-javascript-videogames
+# Simple Puzzle game using canvas tag
