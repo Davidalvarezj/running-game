@@ -10,19 +10,24 @@
 <body>
   <div class="game-container">
     <canvas id="game"></canvas>
-    
+    <p class="keyboard-text">Use buttons or keyboard to move!</p>
     <div class="btns">
-      <button id="up">Arriba</button>
-      <button id="left">Izquierda</button>
-      <button id="right">Derecha</button>
-      <button id="down">Abajo</button>
+      <button type="Submit"><a href="./index.html">Restart</a></button>
+      <button id="up">Up</button>
+      <button id="left">Lefth</button>
+      <button id="right">Right</button>
+      <button id="down">Down</button>
     </div>
+
 
     <div class="messages">
       <!-- TODO -->
-      <p>Párrafo de ejemplo</p>
+      <p>Lives: <span id = "lives"></span></p>
+      <p>Time:⏰<span id="time"></span>'</p>
+      <p>record:🏁<span id="timeRec"></span>'</p>
     </div>
   </div>
+
 
   <script src="./maps.js"></script>
   <script src="./game.js"></script>

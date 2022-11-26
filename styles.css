@@ -1,5 +1,8 @@
 body {
-  background-color: indigo;
+  background-image: url(./img/8bit-16bit-pxl-pikseli-skala-gory-grafika.jpg);
+  background-position: bottom;
+  background-repeat:no-repeat;
+  background-size: cover;
   color: #fff;  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
@@ -13,12 +16,22 @@ body {
   flex-wrap: wrap;
   height: 100vh;
   width: 100vw;
-}
 
+}
+.restartButton{
+  position: relative;
+
+
+}
 canvas {
-  border: 4px solid #ff6600;
+  margin-top: 50px;
+  border: 4px solid #cab15e;
   border-radius: 8px;
-  background-color: #feff9d;
+
+  background-color: #25782f;
+  opacity: 0.9;
+  background: radial-gradient(circle, transparent 20%, #25782f 20%, #25782f 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #25782f 20%, #25782f 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#106d13 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #106d13 0.8px, #25782f 0.8px) -0.4px 0;
+  background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
 }
 
 .btns {
@@ -30,9 +43,9 @@ canvas {
 }
 
 button {
-  background-color: #fdef05;
+  background-color: #e0d952;
   border-radius: 8px;
-  border-color: #ff6600;
+  border-color: #db7d3e;
   font-family: inherit;
   margin: 0;
   padding: 5px 20px;
@@ -48,6 +61,14 @@ button:not(:last-child) {
   margin: 0 auto;
   width: 80%;
   max-width: 460px;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+
 }
 
 p {
@@ -56,7 +77,17 @@ p {
   width: 100%;
 }
 
+.keyboard-text{
+  
+  text-align: center;
+  margin: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 @media (max-width: 440px) {
   button { margin-top: 25px; }
   #up, #down { margin-left: 100%; margin-right: 100%; }
 }
+
+
+

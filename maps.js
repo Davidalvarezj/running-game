@@ -5,49 +5,60 @@
 
 const emojis = {
   '-': ' ',
-  'O': '🚪',
-  'X': '💣',
-  'I': '🎁',
-  'PLAYER': '💀',
-  'BOMB_COLLISION': '🔥',
+  'O': '🏁',
+  'X': '🌳',
+  'I': '🏠',
+  'Y': '🏯', 
+  'B': '🌴', 
+  'C': '🌲', 
+  'D': '🌳', 
+  'F': '🏕️', 
+  'G': '🎄', 
+  'H': '🎋', 
+  'J': '🚧', 
+  'K': '🚧', 
+
+  'PLAYER': '🏃',
+  'BOMB_COLLISION': '💥',
   'GAME_OVER': '👎',
   'WIN': '🏆',
+  'HEART': '❤️',
 };
 
 const maps = [];
 maps.push(`
-  IXXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  OXXXXXXXXX
+  -CXBIBXXX-
+  -CXB-BXCC-
+  -XXB-BXCC-
+  -CCB-BCCX-
+  -XXB-BXCC-
+  -XXB-BXXX-
+  -XXB-BXXX-
+  -XCB-BXXX-
+  -CCB-BXCX-
+  -XXBOBCCC-
 `);
 maps.push(`
-  O--XXXXXXX
-  X--XXXXXXX
-  XX----XXXX
-  X--XX-XXXX
-  X-XXX--XXX
-  X-XXXX-XXX
-  XX--XX--XX
+  BBBBOBBBBB
+  X-----XXXX
+  XX----XXXC
+  X--CX-XXXX
+  X-XCC--XCC
+  X-JXXX-XCX
+  XJ--XX--XX
   XX--XXX-XX
-  XXXX---IXX
-  XXXXXXXXXX
+  XXX----ICC
+  CCCCCCCCCC
   `);
 maps.push(`
-  I-----XXXX
-  XXXXX-XXXX
-  XX----XXXX
-  XX-XXXXXXX
-  XX-----XXX
-  XXXXXX-XXX
-  XX-----XXX
-  XX-XXXXXXX
-  XX-----OXX
-  XXXXXXXXXX
+  Y-----XCCX
+  GHHHH-XCCC
+  XX----XXBX
+  XX-XXBXXXX
+  CC-----XJX
+  CCXBXC-X-X
+  XX-----X-X
+  XX-XXXX--X
+  XX-----O-X
+  XBXBXX---X
 `);
